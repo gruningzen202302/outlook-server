@@ -39,3 +39,15 @@ git push --set-upstream origin trunk
   ```ps2
   dotnet new webapi --name OutlookServer --output OutlookServer --framework net6.0
   ```
+
+## Microsoft Graph
+
+- PowerShell
+
+    ```ps2
+    # ensure PS version ins 7+ 
+    $PSVersionTable
+
+    Install-Module Microsoft.Graph -Scope CurrentUser
+    Get-InstalledModule Microsoft.Graph
+    ```
