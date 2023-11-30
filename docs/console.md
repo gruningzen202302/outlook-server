@@ -20,6 +20,10 @@ gh repo create
 # alternative accepting defaults
 # gh repo create OutlookServer --public --confirm
 
+git commit -am 'feat: project creation for first commit'
+
+git push --set-upstream origin trunk
+
 ```
 
 ## Dotnet CLI
