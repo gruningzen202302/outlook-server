@@ -96,3 +96,10 @@ az group create -g rg-calendar-eastus-prod-001 -l eastus
   "type": "Microsoft.Resources/resourceGroups"
 }
 ```
+
+## Secrets
+
+```ps2
+dotnet user-secrets set ConnectionStrings:Calendar:SqlDb "Server=tcp:sqlserver-calendar-southbr-prod-001.database.windows.net,1433;Initial Catalog=sqldb-calendar-gps;Persist Security Info=True;User ID=qimono;Password={THE_PASSWORD};"
+
+```
