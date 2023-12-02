@@ -78,3 +78,21 @@ git push --set-upstream origin trunk
 app-dotnetazure-eastus-dev-002
 
 <TYPE_OF_RESOURCE>-<APP_NAME>-<LOCATION_SERVER>-<ENVIRONMENT_DEPLOYED>-<INSTANCE_NUMBER>
+
+## Create an Azure resource group
+
+```ps2
+az group create -g rg-calendar-eastus-prod-001 -l eastus
+
+{
+  "id": "/subscriptions/1a2c5eab-0d24-4106-8fd8-00202abd05f3/resourceGroups/rg-calendar-eastus-prod-001",
+  "location": "eastus",
+  "managedBy": null,
+  "name": "rg-calendar-eastus-prod-001",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/resourceGroups"
+}
+```

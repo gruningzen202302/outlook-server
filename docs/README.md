@@ -1,4 +1,6 @@
-# Integrate Microsoft Outlook
+# CALENDAR INTEGRATION
+
+## Service to integrate Microsoft Outlook
 
 - Give user permissions to the API to access the Outlook calendar
 - Create events
@@ -18,3 +20,7 @@ Delivery must include:
 - Detail of hours that the exercise took.
 - Any comments related to the task. You can include suggestions, doubts in the
 process or what is considered necessary to comment
+
+## Default Domain
+
+<app-calendar-blazor-eastau-prod-001.azurewebsites.net>
