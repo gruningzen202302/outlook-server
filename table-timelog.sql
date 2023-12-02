@@ -1,0 +1,9 @@
+CREATE TABLE timelog (
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    TITLE VARCHAR(25) NOT NULL,
+    DESCRIPTION NVARCHAR(100),
+    HOURS INT NOT NULL CHECK (HOURS >= 0)
+);
+
+/* to delete the Table */
+-- DROP TABLE IF EXISTS timelog;
