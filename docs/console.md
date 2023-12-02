@@ -51,3 +51,30 @@ git push --set-upstream origin trunk
     Install-Module Microsoft.Graph -Scope CurrentUser
     Get-InstalledModule Microsoft.Graph
     ```
+
+## Azure CLI
+
+- Check azure installation and version
+  
+  ```ps2
+  az --version
+  ```
+  
+  ```ps2
+  az login
+  
+  az account show
+  az account list --output table
+  
+
+  ```
+
+## Azure Cloud Shell
+
+<https://portal.azure.com/#cloudshell/>
+
+## Azure Naming Conventions
+
+app-dotnetazure-eastus-dev-002
+
+<TYPE_OF_RESOURCE>-<APP_NAME>-<LOCATION_SERVER>-<ENVIRONMENT_DEPLOYED>-<INSTANCE_NUMBER>
