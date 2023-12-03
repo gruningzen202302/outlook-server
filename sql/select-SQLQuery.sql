@@ -1,5 +1,1 @@
-SELECT TOP (1000) [ID]
-      ,[TITLE]
-      ,[DESCRIPTION]
-      ,[HOURS]
-  FROM [dbo].[timelog]
+select * from timelog
