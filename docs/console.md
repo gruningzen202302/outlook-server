@@ -51,3 +51,10 @@ git push --set-upstream origin trunk
     Install-Module Microsoft.Graph -Scope CurrentUser
     Get-InstalledModule Microsoft.Graph
     ```
+
+## Certificates
+
+dotnet dev-certs https --trust
+
+Trusting the HTTPS development certificate was requested. Trusting the certificate on Linux distributions automatically is not supported. For instructions on how to manually trust the certificate on your Linux distribution, go to https://aka.ms/dev-certs-trust
+A valid HTTPS certificate is already present.
